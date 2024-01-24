@@ -1,1 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
 
+    <title>Licence Pro Dev Web</title>
+
+    <link rel="stylesheet" href="css/main_style.css" />
+    <link
+      rel="shortcut icon"
+      href="image/logo-modified.png"
+      type="image/svg+xml"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"
+          ><img src="image/logo-modified.png" id="logo-img"
+        /></a>
+
+        <div class="nav-links" id="navLinks">
+          <span class="icon" onclick="hidemenu()">&#10005;</span>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="Licence.html">La Licence</a></li>
+            <li><a href="#projet_call">Nos Projets</a></li>
+            <li><a href="NosCV.html">Nos CV</a></li>
+            <li><a href="Contact_page.html">Contact</a></li>
+          </ul>
+        </div>
+        <span class="icon" onclick="showmenu()">&#9776;</span>
+      </nav>
+
+      <div class="text-box">
+        <h1>Licence Professionnelle Développement web</h1>
+        <p>
+          Lorem ipsum dolor sit amet,<br />Lorem ipsum dolor sit, amet
+          consectetur adipisicing elit. At, veniam!.
+        </p>
+
+        <a
+          href="https://www.cyu.fr/formation/trouver-sa-formation/catalogue-des-formations/licence-metiers-de-linformatique-applications-web-developpeur-web-et-multimedia-applications-mobiles-1"
+          class="hero-btn"
+          >Admission</a
+        >
+      </div>
+    </section>
+
+    <section class="projet" id="projet_call">
+      <h1>Nos Projets</h1>
+      <p>
+        Nous sommes amenés à réaliser beaucoup de projets très passionant le
+        long de l'année voici quelques exemples
+      </p>
+
+      <div class="row">
+        <div class="projet-col">
+          <h2>PHP/SYMFONY</h2>
+          <p>
+            Cette semaine, nos étudiants ont appris les bases de Symfony et ont
+            conclu en beauté avec la création d'une mini-application façon
+            "UberEats" en Symfony 🍔💡 ( démonstration en vidéo).
+          </p>
+          <video width="100%" controls>
+            <source src="image/demo-project.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <div class="projet-col">
+          <h2>Lorem, ipsum.</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt,
+            doloribus.
+          </p>
+        </div>
+
+        <div class="projet-col">
+          <h2>Lorem, ipsum.</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
+            ad.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="valeur">
+      <h1>Nos Valeurs</h1>
+
+      <div class="row">
+        <div class="valeur-col">
+          <img src="image/Partage.jpg" alt="" />
+          <div class="layer">
+            <h3>Partage</h3>
+          </div>
+        </div>
+
+        <div class="valeur-col">
+          <img src="image/Apprentissage.jpg" alt="" />
+          <div class="layer">
+            <h3>Apprentissage</h3>
+          </div>
+        </div>
+
+        <div class="valeur-col">
+          <img src="image/Test.jpg" alt="" />
+          <div class="layer">
+            <h3>Education</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="campus">
+      <h1>Le campus</h1>
+      <p>Installations misent en place par l'université pour les étudiants</p>
+
+      <div class="row">
+        <div class="campus-col">
+          <img src="image/Université.jpg" alt="" />
+          <h3>Le site</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat,
+            et Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Officiis, ipsum.
+          </p>
+        </div>
+
+        <div class="campus-col">
+          <img src="image/Test2.jpg" alt="" />
+          <h3>Salle de cours</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+            totam quis quasi eaque doloribus provident distinctio corporis
+            soluta eum inventore.
+          </p>
+        </div>
+
+        <div class="campus-col">
+          <img src="image/cantine.jpg" alt="" />
+          <h3>Cantine</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+            reprehenderit impedit id doloremque iusto, nulla quos eos
+            consequuntur accusamus consectetur?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <h4>Lorem.</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, doloremque
+        a alias ducimus quidem quisquam!
+      </p>
+      <p id="copyright">Fait par &#10084; La Licence LP DW</p>
+    </section>
+
+    <script src="javascript/main_script.js"></script>
+  </body>
+</html>
