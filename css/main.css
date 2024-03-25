@@ -146,7 +146,7 @@ h1{
     font-weight: 300;
 }
 p{
-    color:#777;
+    color:#ffffff;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
@@ -159,7 +159,7 @@ p{
 }
 .projet-col{
     flex-basis: 31%;
-    background: #d2e1ff;
+    background: #0950b4;
     border-radius: 10px;
     margin-bottom:5%;
     padding: 20px 12px;
