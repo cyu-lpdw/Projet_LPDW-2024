@@ -1,0 +1,28 @@
+#=======================
+# DO NOT DELETE
+#=======================
+
+# FILES FOR INTELLIJ IDEA
+#=======================
+.idea/
+**/.idea/
+/build/
+**/build/
+
+# SYSTEM AND JAVA FILES
+#=====================
+Thumbs.db
+debug.log
+hs_err_pid*
+
+# JAVASCRIPT AND OTHERS
+======================
+node_modules/
+**/node_modules/
+
+# MACOS
+#=====================
+.DS_Store
+.AppleDouble
+.LSOverride
+/.idea/runConfigurations.xml
